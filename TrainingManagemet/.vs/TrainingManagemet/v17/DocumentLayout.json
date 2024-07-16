@@ -1,0 +1,226 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\source\\repos\\TrainingManagemet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{678AED16-170D-4DAF-A046-7EAD8DD09B82}|UserService\\UserService.csproj|c:\\users\\administrator\\source\\repos\\trainingmanagemet\\userservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{678AED16-170D-4DAF-A046-7EAD8DD09B82}|UserService\\UserService.csproj|solutionrelative:userservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{678AED16-170D-4DAF-A046-7EAD8DD09B82}|UserService\\UserService.csproj|c:\\users\\administrator\\source\\repos\\trainingmanagemet\\userservice\\data\\userscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{678AED16-170D-4DAF-A046-7EAD8DD09B82}|UserService\\UserService.csproj|solutionrelative:userservice\\data\\userscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{678AED16-170D-4DAF-A046-7EAD8DD09B82}|UserService\\UserService.csproj|c:\\users\\administrator\\source\\repos\\trainingmanagemet\\userservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{678AED16-170D-4DAF-A046-7EAD8DD09B82}|UserService\\UserService.csproj|solutionrelative:userservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CA08802-D251-4F32-A280-8AAF2EF0D6A7}|EnrollmentService\\EnrollmentService.csproj|c:\\users\\administrator\\source\\repos\\trainingmanagemet\\enrollmentservice\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CA08802-D251-4F32-A280-8AAF2EF0D6A7}|EnrollmentService\\EnrollmentService.csproj|solutionrelative:enrollmentservice\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CA08802-D251-4F32-A280-8AAF2EF0D6A7}|EnrollmentService\\EnrollmentService.csproj|c:\\users\\administrator\\source\\repos\\trainingmanagemet\\enrollmentservice\\data\\enrollmentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CA08802-D251-4F32-A280-8AAF2EF0D6A7}|EnrollmentService\\EnrollmentService.csproj|solutionrelative:enrollmentservice\\data\\enrollmentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CA08802-D251-4F32-A280-8AAF2EF0D6A7}|EnrollmentService\\EnrollmentService.csproj|c:\\users\\administrator\\source\\repos\\trainingmanagemet\\enrollmentservice\\controllers\\enrollmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CA08802-D251-4F32-A280-8AAF2EF0D6A7}|EnrollmentService\\EnrollmentService.csproj|solutionrelative:enrollmentservice\\controllers\\enrollmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59E3AE1F-DE16-45D9-9E60-361251F6A1F9}|BatchService\\BatchService.csproj|c:\\users\\administrator\\source\\repos\\trainingmanagemet\\batchservice\\controllers\\batchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59E3AE1F-DE16-45D9-9E60-361251F6A1F9}|BatchService\\BatchService.csproj|solutionrelative:batchservice\\controllers\\batchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59E3AE1F-DE16-45D9-9E60-361251F6A1F9}|BatchService\\BatchService.csproj|c:\\users\\administrator\\source\\repos\\trainingmanagemet\\batchservice\\data\\batchcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59E3AE1F-DE16-45D9-9E60-361251F6A1F9}|BatchService\\BatchService.csproj|solutionrelative:batchservice\\data\\batchcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59E3AE1F-DE16-45D9-9E60-361251F6A1F9}|BatchService\\BatchService.csproj|c:\\users\\administrator\\source\\repos\\trainingmanagemet\\batchservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59E3AE1F-DE16-45D9-9E60-361251F6A1F9}|BatchService\\BatchService.csproj|solutionrelative:batchservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A76B4A00-51D0-428D-AE13-8471F3B00882}|CourseService\\CourseService.csproj|c:\\users\\administrator\\source\\repos\\trainingmanagemet\\courseservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A76B4A00-51D0-428D-AE13-8471F3B00882}|CourseService\\CourseService.csproj|solutionrelative:courseservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\TrainingManagemet\\UserService\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "UserService\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\TrainingManagemet\\UserService\\Controllers\\UserController.cs",
+              "RelativeToolTip": "UserService\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T16:57:13.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersContext.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\TrainingManagemet\\UserService\\Data\\UsersContext.cs",
+              "RelativeDocumentMoniker": "UserService\\Data\\UsersContext.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\TrainingManagemet\\UserService\\Data\\UsersContext.cs",
+              "RelativeToolTip": "UserService\\Data\\UsersContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T16:56:07.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\TrainingManagemet\\UserService\\Models\\User.cs",
+              "RelativeDocumentMoniker": "UserService\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\TrainingManagemet\\UserService\\Models\\User.cs",
+              "RelativeToolTip": "UserService\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T16:55:45.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\TrainingManagemet\\EnrollmentService\\Models\\Enrollment.cs",
+              "RelativeDocumentMoniker": "EnrollmentService\\Models\\Enrollment.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\TrainingManagemet\\EnrollmentService\\Models\\Enrollment.cs",
+              "RelativeToolTip": "EnrollmentService\\Models\\Enrollment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T16:55:04.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnrollmentContext.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\TrainingManagemet\\EnrollmentService\\Data\\EnrollmentContext.cs",
+              "RelativeDocumentMoniker": "EnrollmentService\\Data\\EnrollmentContext.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\TrainingManagemet\\EnrollmentService\\Data\\EnrollmentContext.cs",
+              "RelativeToolTip": "EnrollmentService\\Data\\EnrollmentContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T16:54:37.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EnrollmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\TrainingManagemet\\EnrollmentService\\Controllers\\EnrollmentsController.cs",
+              "RelativeDocumentMoniker": "EnrollmentService\\Controllers\\EnrollmentsController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\TrainingManagemet\\EnrollmentService\\Controllers\\EnrollmentsController.cs",
+              "RelativeToolTip": "EnrollmentService\\Controllers\\EnrollmentsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T16:52:31.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BatchContext.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\TrainingManagemet\\BatchService\\Data\\BatchContext.cs",
+              "RelativeDocumentMoniker": "BatchService\\Data\\BatchContext.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\TrainingManagemet\\BatchService\\Data\\BatchContext.cs",
+              "RelativeToolTip": "BatchService\\Data\\BatchContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T01:58:12.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BatchesController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\TrainingManagemet\\BatchService\\Controllers\\BatchesController.cs",
+              "RelativeDocumentMoniker": "BatchService\\Controllers\\BatchesController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\TrainingManagemet\\BatchService\\Controllers\\BatchesController.cs",
+              "RelativeToolTip": "BatchService\\Controllers\\BatchesController.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAAAFoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T01:55:05.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\TrainingManagemet\\BatchService\\Program.cs",
+              "RelativeDocumentMoniker": "BatchService\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\TrainingManagemet\\BatchService\\Program.cs",
+              "RelativeToolTip": "BatchService\\Program.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T18:35:52.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\TrainingManagemet\\CourseService\\Program.cs",
+              "RelativeDocumentMoniker": "CourseService\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\TrainingManagemet\\CourseService\\Program.cs",
+              "RelativeToolTip": "CourseService\\Program.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAIwCQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T17:48:13.722Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
