@@ -1,0 +1,7 @@
+C:\Users\Administrator\source\repos\TrainingManagemet\EnrollmentService\obj\Debug\net8.0\EnrollmentService.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\TrainingManagemet\EnrollmentService\obj\Debug\net8.0\EnrollmentService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\TrainingManagemet\EnrollmentService\obj\Debug\net8.0\EnrollmentService.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\TrainingManagemet\EnrollmentService\obj\Debug\net8.0\EnrollmentService.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\TrainingManagemet\EnrollmentService\obj\Debug\net8.0\EnrollmentService.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\TrainingManagemet\EnrollmentService\obj\Debug\net8.0\EnrollmentService.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Administrator\source\repos\TrainingManagemet\EnrollmentService\obj\Debug\net8.0\EnrollmentService.MvcApplicationPartsAssemblyInfo.cache

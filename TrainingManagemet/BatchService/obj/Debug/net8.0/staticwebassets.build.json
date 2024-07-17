@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "XdM6QipyZEEJ4CoR6J83G3a8LhF8bi7kJ3oH/HBKkIU=",
+  "Source": "BatchService",
+  "BasePath": "_content/BatchService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
