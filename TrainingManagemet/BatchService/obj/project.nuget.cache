@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lbClPkmQEmM=",
+  "dgSpecHash": "Hr3Wbn2UHA8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\TrainingManagemet\\BatchService\\BatchService.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Documents\\CapstoneTrainingManagement\\Capstone\\CapstoneBackendServices\\TrainingManagemet\\BatchService\\BatchService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
