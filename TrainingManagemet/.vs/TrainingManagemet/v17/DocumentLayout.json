@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Wipro-Assignments\\Capstone\\BackEnd\\Capstone_BackendServices\\TrainingManagemet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7C6A731D-2C43-42CA-9462-11032BE640A7}|FeedbackService\\FeedbackService.csproj|c:\\wipro-assignments\\capstone\\backend\\capstone_backendservices\\trainingmanagemet\\feedbackservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C6A731D-2C43-42CA-9462-11032BE640A7}|FeedbackService\\FeedbackService.csproj|solutionrelative:feedbackservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FBB8721-6D49-4FDF-A5FD-A3CA2FD292F2}|FeedbackService\\FeedbackService.csproj|c:\\wipro-assignments\\capstone\\backend\\capstone_backendservices\\trainingmanagemet\\feedbackservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FBB8721-6D49-4FDF-A5FD-A3CA2FD292F2}|FeedbackService\\FeedbackService.csproj|solutionrelative:feedbackservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FBB8721-6D49-4FDF-A5FD-A3CA2FD292F2}|FeedbackService\\FeedbackService.csproj|c:\\wipro-assignments\\capstone\\backend\\capstone_backendservices\\trainingmanagemet\\feedbackservice\\controllers\\feedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FBB8721-6D49-4FDF-A5FD-A3CA2FD292F2}|FeedbackService\\FeedbackService.csproj|solutionrelative:feedbackservice\\controllers\\feedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FBB8721-6D49-4FDF-A5FD-A3CA2FD292F2}|FeedbackService\\FeedbackService.csproj|c:\\wipro-assignments\\capstone\\backend\\capstone_backendservices\\trainingmanagemet\\feedbackservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3FBB8721-6D49-4FDF-A5FD-A3CA2FD292F2}|FeedbackService\\FeedbackService.csproj|solutionrelative:feedbackservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -60,9 +68,34 @@
               "RelativeDocumentMoniker": "FeedbackService\\Program.cs",
               "ToolTip": "C:\\Wipro-Assignments\\Capstone\\BackEnd\\Capstone_BackendServices\\TrainingManagemet\\FeedbackService\\Program.cs",
               "RelativeToolTip": "FeedbackService\\Program.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACQAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T05:17:07.799Z",
+              "WhenOpened": "2024-07-18T08:04:21.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Wipro-Assignments\\Capstone\\BackEnd\\Capstone_BackendServices\\TrainingManagemet\\FeedbackService\\appsettings.json",
+              "RelativeDocumentMoniker": "FeedbackService\\appsettings.json",
+              "ToolTip": "C:\\Wipro-Assignments\\Capstone\\BackEnd\\Capstone_BackendServices\\TrainingManagemet\\FeedbackService\\appsettings.json",
+              "RelativeToolTip": "FeedbackService\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-18T07:40:51.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FeedbackController.cs",
+              "DocumentMoniker": "C:\\Wipro-Assignments\\Capstone\\BackEnd\\Capstone_BackendServices\\TrainingManagemet\\FeedbackService\\Controllers\\FeedbackController.cs",
+              "RelativeDocumentMoniker": "FeedbackService\\Controllers\\FeedbackController.cs",
+              "ToolTip": "C:\\Wipro-Assignments\\Capstone\\BackEnd\\Capstone_BackendServices\\TrainingManagemet\\FeedbackService\\Controllers\\FeedbackController.cs",
+              "RelativeToolTip": "FeedbackService\\Controllers\\FeedbackController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T07:30:50.581Z",
               "EditorCaption": ""
             }
           ]

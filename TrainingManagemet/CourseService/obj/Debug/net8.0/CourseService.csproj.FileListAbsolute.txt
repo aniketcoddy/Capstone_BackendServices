@@ -273,3 +273,4 @@ C:\Wipro-Assignments\Capstone\BackEnd\Capstone_BackendServices\TrainingManagemet
 C:\Wipro-Assignments\Capstone\BackEnd\Capstone_BackendServices\TrainingManagemet\CourseService\obj\Debug\net8.0\CourseService.pdb
 C:\Wipro-Assignments\Capstone\BackEnd\Capstone_BackendServices\TrainingManagemet\CourseService\obj\Debug\net8.0\CourseService.genruntimeconfig.cache
 C:\Wipro-Assignments\Capstone\BackEnd\Capstone_BackendServices\TrainingManagemet\CourseService\obj\Debug\net8.0\ref\CourseService.dll
+C:\Wipro-Assignments\Capstone\BackEnd\Capstone_BackendServices\TrainingManagemet\CourseService\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

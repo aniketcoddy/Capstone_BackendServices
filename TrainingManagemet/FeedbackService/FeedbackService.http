@@ -1,4 +1,4 @@
-@FeedbackService_HostAddress = http://localhost:5094
+@FeedbackService_HostAddress = http://localhost:5073
 
 GET {{FeedbackService_HostAddress}}/weatherforecast/
 Accept: application/json

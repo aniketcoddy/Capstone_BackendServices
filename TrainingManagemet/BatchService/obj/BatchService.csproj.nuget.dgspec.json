@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Wipro-Assignments\\Capstone\\Backend\\Capstone_BackendServices\\TrainingManagemet\\BatchService\\BatchService.csproj": {}
+    "C:\\Wipro-Assignments\\Capstone\\BackEnd\\Capstone_BackendServices\\TrainingManagemet\\BatchService\\BatchService.csproj": {}
   },
   "projects": {
-    "C:\\Wipro-Assignments\\Capstone\\Backend\\Capstone_BackendServices\\TrainingManagemet\\BatchService\\BatchService.csproj": {
+    "C:\\Wipro-Assignments\\Capstone\\BackEnd\\Capstone_BackendServices\\TrainingManagemet\\BatchService\\BatchService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Wipro-Assignments\\Capstone\\Backend\\Capstone_BackendServices\\TrainingManagemet\\BatchService\\BatchService.csproj",
+        "projectUniqueName": "C:\\Wipro-Assignments\\Capstone\\BackEnd\\Capstone_BackendServices\\TrainingManagemet\\BatchService\\BatchService.csproj",
         "projectName": "BatchService",
-        "projectPath": "C:\\Wipro-Assignments\\Capstone\\Backend\\Capstone_BackendServices\\TrainingManagemet\\BatchService\\BatchService.csproj",
+        "projectPath": "C:\\Wipro-Assignments\\Capstone\\BackEnd\\Capstone_BackendServices\\TrainingManagemet\\BatchService\\BatchService.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Wipro-Assignments\\Capstone\\Backend\\Capstone_BackendServices\\TrainingManagemet\\BatchService\\obj\\",
+        "outputPath": "C:\\Wipro-Assignments\\Capstone\\BackEnd\\Capstone_BackendServices\\TrainingManagemet\\BatchService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",

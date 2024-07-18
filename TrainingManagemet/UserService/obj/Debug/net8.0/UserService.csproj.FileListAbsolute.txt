@@ -143,3 +143,4 @@ C:\Wipro-Assignments\Capstone\Backend\Capstone_BackendServices\TrainingManagemet
 C:\Wipro-Assignments\Capstone\Backend\Capstone_BackendServices\TrainingManagemet\UserService\obj\Debug\net8.0\UserService.pdb
 C:\Wipro-Assignments\Capstone\Backend\Capstone_BackendServices\TrainingManagemet\UserService\obj\Debug\net8.0\UserService.genruntimeconfig.cache
 C:\Wipro-Assignments\Capstone\Backend\Capstone_BackendServices\TrainingManagemet\UserService\obj\Debug\net8.0\ref\UserService.dll
+C:\Wipro-Assignments\Capstone\BackEnd\Capstone_BackendServices\TrainingManagemet\UserService\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

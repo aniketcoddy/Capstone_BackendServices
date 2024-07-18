@@ -5,7 +5,7 @@
 namespace FeedbackService.Migrations
 {
     /// <inheritdoc />
-    public partial class AddFeedbackModel : Migration
+    public partial class InittialFeedback : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

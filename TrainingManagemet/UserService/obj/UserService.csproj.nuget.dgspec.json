@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Wipro-Assignments\\Capstone\\Backend\\Capstone_BackendServices\\TrainingManagemet\\UserService\\UserService.csproj": {}
+    "C:\\Wipro-Assignments\\Capstone\\BackEnd\\Capstone_BackendServices\\TrainingManagemet\\UserService\\UserService.csproj": {}
   },
   "projects": {
-    "C:\\Wipro-Assignments\\Capstone\\Backend\\Capstone_BackendServices\\TrainingManagemet\\UserService\\UserService.csproj": {
+    "C:\\Wipro-Assignments\\Capstone\\BackEnd\\Capstone_BackendServices\\TrainingManagemet\\UserService\\UserService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Wipro-Assignments\\Capstone\\Backend\\Capstone_BackendServices\\TrainingManagemet\\UserService\\UserService.csproj",
+        "projectUniqueName": "C:\\Wipro-Assignments\\Capstone\\BackEnd\\Capstone_BackendServices\\TrainingManagemet\\UserService\\UserService.csproj",
         "projectName": "UserService",
-        "projectPath": "C:\\Wipro-Assignments\\Capstone\\Backend\\Capstone_BackendServices\\TrainingManagemet\\UserService\\UserService.csproj",
+        "projectPath": "C:\\Wipro-Assignments\\Capstone\\BackEnd\\Capstone_BackendServices\\TrainingManagemet\\UserService\\UserService.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Wipro-Assignments\\Capstone\\Backend\\Capstone_BackendServices\\TrainingManagemet\\UserService\\obj\\",
+        "outputPath": "C:\\Wipro-Assignments\\Capstone\\BackEnd\\Capstone_BackendServices\\TrainingManagemet\\UserService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
