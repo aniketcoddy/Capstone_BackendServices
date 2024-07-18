@@ -1,6 +1,15 @@
-﻿namespace EnrollmentService.Data
+﻿using Microsoft.EntityFrameworkCore;
+using EnrollmentService.Models;
+
+namespace EnrollmentService.Data
 {
-    public class EnrollmentContext
+    public class EnrollmentsContext : DbContext
     {
+        public EnrollmentsContext(DbContextOptions<EnrollmentsContext> options)
+            : base(options)
+        {
+        }
+
+        public DbSet<Enrollment> Enrollments { get; set; }
     }
 }

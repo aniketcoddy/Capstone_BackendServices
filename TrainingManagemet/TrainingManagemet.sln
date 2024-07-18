@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserService", "UserService\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnrollmentService", "EnrollmentService\EnrollmentService.csproj", "{7CA08802-D251-4F32-A280-8AAF2EF0D6A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationService", "AuthenticationService\AuthenticationService.csproj", "{880A4F59-2ABD-475E-AA08-D426E089B678}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthenticationService", "AuthenticationService\AuthenticationService.csproj", "{880A4F59-2ABD-475E-AA08-D426E089B678}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeedbackService", "FeedbackService\FeedbackService.csproj", "{7C6A731D-2C43-42CA-9462-11032BE640A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{880A4F59-2ABD-475E-AA08-D426E089B678}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{880A4F59-2ABD-475E-AA08-D426E089B678}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{880A4F59-2ABD-475E-AA08-D426E089B678}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C6A731D-2C43-42CA-9462-11032BE640A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C6A731D-2C43-42CA-9462-11032BE640A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C6A731D-2C43-42CA-9462-11032BE640A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C6A731D-2C43-42CA-9462-11032BE640A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

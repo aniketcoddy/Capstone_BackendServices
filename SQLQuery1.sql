@@ -58,3 +58,91 @@ VALUES
 ('Batch E', 'Evening batch for Machine Learning', '2024-08-01', '2024-08-31', 0, 5);
 GO
 
+
+
+-- Create UserDB Database
+CREATE DATABASE UserDB;
+GO
+
+-- Use UserDB Database
+USE UserDB;
+GO
+
+CREATE TABLE Users (
+    Id INT PRIMARY KEY IDENTITY,
+    Name NVARCHAR(100),
+    Email NVARCHAR(100) UNIQUE,
+    Role INT,
+    Status BIT,
+    PasswordHash NVARCHAR(500)  -- Adjust size as per your hashing algorithm
+);
+
+GO
+
+select * from Users;
+GO
+
+-- Use UserDB Database
+USE UserDB;
+GO
+
+-- Insert data into Users table
+SET IDENTITY_INSERT Users ON;  -- Allow manual insertion of values into the identity column
+
+INSERT INTO [Users] ([Id], [Name], [Email], [Role], [Status], [PasswordHash]) 
+VALUES (1, N'John Doe', N'john.doe@example.com', 1, 1, N'DRDMzQogC4rw09DLKDIWqA==:V9Hs+7hwUE/FpZ0k0pgfecs4cgVDyNjGyOunNstk7M0=');
+
+INSERT INTO [Users] ([Id], [Name], [Email], [Role], [Status], [PasswordHash]) 
+VALUES (2, N'Sathesh', N'sam@gmail.com', 2, 1, N'sg/U6P4ZOr3iZbE6pRbCKg==:GCtllhghkLEnrD9Ff/2tVsO0maI1trxPEjOLzFIEZyU=');
+
+INSERT INTO [Users] ([Id], [Name], [Email], [Role], [Status], [PasswordHash]) 
+VALUES (3, N'sam', N'sample@gmail.com', 3, 0, N'/QWJBTI+RfzikhHaxzCTYw==:22w/cmAoHR1sxBbgTGe4N0+SoFmilJPFnDzrQ0N/5nU=');
+
+INSERT INTO [Users] ([Id], [Name], [Email], [Role], [Status], [PasswordHash]) 
+VALUES (4, N'dinesh', N'dinesh@gmail.com', 3, 1, N'3QALZrBVC3FE/XloUjqyqw==:wlWODS8FqFuer2NavSLShsuMjpljlBVc46V/MnZyrOM=');
+
+SET IDENTITY_INSERT Users OFF;  -- Disable manual insertion of values into the identity column
+GO
+
+select * from Users;
+GO
+
+
+-- Create the database
+CREATE DATABASE EnrollmentDB;
+GO
+
+-- Switch to the new database
+USE EnrollmentDB;
+GO
+
+-- Create the Enrollments table
+CREATE TABLE Enrollments (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    UserId INT NOT NULL,
+    CourseId INT NOT NULL,
+    Status BIT NOT NULL
+);
+GO
+
+-- Verify the table creation
+SELECT * FROM Enrollments;
+GO
+
+
+CREATE DATABASE FeedbackDB;
+GO
+
+USE FeedbackDB;
+GO
+
+
+CREATE TABLE Feedbacks (
+    Id INT PRIMARY KEY IDENTITY,
+    CourseId INT NOT NULL,
+    UserId INT NOT NULL,
+    Rating INT NOT NULL,
+    Comment NVARCHAR(MAX),
+);
+
+select * from Feedbacks;

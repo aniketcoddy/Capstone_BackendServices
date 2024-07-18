@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Collections.Generic;
+using System.Linq;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using CourseService.Data;
 using CourseService.Models;
+using CourseService.Data;
 
 namespace CourseService.Controllers
 {
@@ -14,6 +16,15 @@ namespace CourseService.Controllers
         public CoursesController(CourseContext context)
         {
             _context = context;
+
+            if (_context.Courses.Count() == 0)
+            {
+                // Create a new Course if collection is empty,
+                // which means you can't delete all Courses.
+                _context.Courses.Add(new Course { Name = "C#", Description = "C# course", Status = true, StartDate = DateTime.Now, EndDate = DateTime.Now.AddMonths(1) });
+                _context.Courses.Add(new Course { Name = "Java", Description = "Java with OOPS", Status = true, StartDate = DateTime.Now, EndDate = DateTime.Now.AddMonths(1) });
+                _context.SaveChanges();
+            }
         }
 
         [HttpGet]
@@ -73,8 +84,8 @@ namespace CourseService.Controllers
             return NoContent();
         }
 
-        [HttpPatch("{id}")]
-        public async Task<IActionResult> PatchCourse(int id, Course course)
+        [HttpPatch("delete/{id}")]
+        public async Task<IActionResult> SoftDeleteCourse(int id, [FromBody] Course course)
         {
             var existingCourse = await _context.Courses.FindAsync(id);
             if (existingCourse == null)
@@ -82,11 +93,21 @@ namespace CourseService.Controllers
                 return NotFound();
             }
 
-            existingCourse.Status = course.Status;
+            existingCourse.Status = false;
+
+            _context.Entry(existingCourse).State = EntityState.Modified;
             await _context.SaveChangesAsync();
 
             return NoContent();
         }
+
+        // New endpoint to fetch courses with status=false
+        [HttpGet("inactive")]
+        public async Task<ActionResult<IEnumerable<Course>>> GetInactiveCourses()
+        {
+            return await _context.Courses.Where(c => c.Status == false).ToListAsync();
+        }
+
 
         private bool CourseExists(int id)
         {
