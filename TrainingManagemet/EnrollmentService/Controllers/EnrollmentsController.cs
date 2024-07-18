@@ -58,6 +58,22 @@ namespace EnrollmentService.Controllers
 
             return NoContent();
         }
+
+        [HttpGet("counts")]
+        public async Task<ActionResult<object>> GetEnrollmentCounts()
+        {
+            var totalEnrollments = await _context.Enrollments.CountAsync();
+            var approvedEnrollments = await _context.Enrollments.CountAsync(e => e.Status == true);
+            var notApprovedEnrollments = await _context.Enrollments.CountAsync(e => e.Status == false);
+
+            return Ok(new
+            {
+                Total = totalEnrollments,
+                Approved = approvedEnrollments,
+                NotApproved = notApprovedEnrollments
+            });
+        }
+
     }
 
 }
