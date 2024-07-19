@@ -2,6 +2,9 @@
 using Microsoft.EntityFrameworkCore;
 using EnrollmentService.Data;
 using EnrollmentService.Models;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace EnrollmentService.Controllers
 {
@@ -25,7 +28,8 @@ namespace EnrollmentService.Controllers
         [HttpGet("user/{userId}")]
         public async Task<ActionResult<IEnumerable<Enrollment>>> GetEnrollmentsByUser(int userId)
         {
-            return await _context.Enrollments.Where(e => e.UserId == userId && e.Status).ToListAsync();
+            // Return enrollments with status true, false, or null
+            return await _context.Enrollments.Where(e => e.UserId == userId).ToListAsync();
         }
 
         [HttpPost]
@@ -45,7 +49,7 @@ namespace EnrollmentService.Controllers
         }
 
         [HttpPatch("{id}")]
-        public IActionResult RejectEnrollment(int id)
+        public IActionResult PatchEnrollment(int id, [FromBody] EnrollmentStatusUpdate update)
         {
             var enrollment = _context.Enrollments.Find(id);
             if (enrollment == null)
@@ -53,11 +57,17 @@ namespace EnrollmentService.Controllers
                 return NotFound();
             }
 
-            enrollment.Status = false;
+            enrollment.Status = update.Status;
             _context.SaveChanges();
 
             return NoContent();
         }
+
+        public class EnrollmentStatusUpdate
+        {
+            public bool? Status { get; set; }
+        }
+
 
         [HttpGet("counts")]
         public async Task<ActionResult<object>> GetEnrollmentCounts()
@@ -74,7 +84,32 @@ namespace EnrollmentService.Controllers
             });
         }
 
+        // New endpoints to fetch enrollments by status
+        [HttpGet("requested")]
+        public async Task<ActionResult<IEnumerable<Enrollment>>> GetRequestedEnrollments()
+        {
+            // Return all enrollments including those with null status
+            return await _context.Enrollments.ToListAsync();
+        }
+
+        [HttpGet("approved")]
+        public async Task<ActionResult<IEnumerable<Enrollment>>> GetApprovedEnrollments()
+        {
+            return await _context.Enrollments.Where(e => e.Status == true).ToListAsync();
+        }
+
+        [HttpGet("notApproved")]
+        public async Task<ActionResult<IEnumerable<Enrollment>>> GetNotApprovedEnrollments()
+        {
+            return await _context.Enrollments.Where(e => e.Status == false).ToListAsync();
+        }
+        [HttpGet("pending")]
+        public async Task<ActionResult<IEnumerable<Enrollment>>> GetPendingEnrollments()
+        {
+            // Return only enrollments with status null
+            var enrollments = await _context.Enrollments.Where(e => e.Status == null).ToListAsync();
+            return Ok(enrollments);
+        }
+
     }
-
 }
-
