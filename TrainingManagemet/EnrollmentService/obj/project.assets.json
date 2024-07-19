@@ -4269,11 +4269,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Wipro-Assignments\\Capstone\\Backend\\Capstone_BackendServices\\TrainingManagemet\\EnrollmentService\\EnrollmentService.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\Backend\\Capstone_BackendServices\\TrainingManagemet\\EnrollmentService\\EnrollmentService.csproj",
       "projectName": "EnrollmentService",
-      "projectPath": "C:\\Wipro-Assignments\\Capstone\\Backend\\Capstone_BackendServices\\TrainingManagemet\\EnrollmentService\\EnrollmentService.csproj",
+      "projectPath": "C:\\Users\\Administrator\\Desktop\\Backend\\Capstone_BackendServices\\TrainingManagemet\\EnrollmentService\\EnrollmentService.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Wipro-Assignments\\Capstone\\Backend\\Capstone_BackendServices\\TrainingManagemet\\EnrollmentService\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Desktop\\Backend\\Capstone_BackendServices\\TrainingManagemet\\EnrollmentService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4360,7 +4360,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Wipro-Assignments\\Capstone\\Backend\\Capstone_BackendServices\\TrainingManagemet\\AuthenticationService\\AuthenticationService.csproj": {}
+    "C:\\Users\\Administrator\\Desktop\\Backend\\Capstone_BackendServices\\TrainingManagemet\\AuthenticationService\\AuthenticationService.csproj": {}
   },
   "projects": {
-    "C:\\Wipro-Assignments\\Capstone\\Backend\\Capstone_BackendServices\\TrainingManagemet\\AuthenticationService\\AuthenticationService.csproj": {
+    "C:\\Users\\Administrator\\Desktop\\Backend\\Capstone_BackendServices\\TrainingManagemet\\AuthenticationService\\AuthenticationService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Wipro-Assignments\\Capstone\\Backend\\Capstone_BackendServices\\TrainingManagemet\\AuthenticationService\\AuthenticationService.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\Backend\\Capstone_BackendServices\\TrainingManagemet\\AuthenticationService\\AuthenticationService.csproj",
         "projectName": "AuthenticationService",
-        "projectPath": "C:\\Wipro-Assignments\\Capstone\\Backend\\Capstone_BackendServices\\TrainingManagemet\\AuthenticationService\\AuthenticationService.csproj",
+        "projectPath": "C:\\Users\\Administrator\\Desktop\\Backend\\Capstone_BackendServices\\TrainingManagemet\\AuthenticationService\\AuthenticationService.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Wipro-Assignments\\Capstone\\Backend\\Capstone_BackendServices\\TrainingManagemet\\AuthenticationService\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\Desktop\\Backend\\Capstone_BackendServices\\TrainingManagemet\\AuthenticationService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -98,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

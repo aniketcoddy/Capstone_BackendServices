@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Wipro-Assignments\\Capstone\\BackEnd\\Capstone_BackendServices\\TrainingManagemet\\CourseService\\CourseService.csproj": {}
+    "C:\\Users\\Administrator\\Desktop\\Backend\\Capstone_BackendServices\\TrainingManagemet\\CourseService\\CourseService.csproj": {}
   },
   "projects": {
-    "C:\\Wipro-Assignments\\Capstone\\BackEnd\\Capstone_BackendServices\\TrainingManagemet\\CourseService\\CourseService.csproj": {
+    "C:\\Users\\Administrator\\Desktop\\Backend\\Capstone_BackendServices\\TrainingManagemet\\CourseService\\CourseService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Wipro-Assignments\\Capstone\\BackEnd\\Capstone_BackendServices\\TrainingManagemet\\CourseService\\CourseService.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\Backend\\Capstone_BackendServices\\TrainingManagemet\\CourseService\\CourseService.csproj",
         "projectName": "CourseService",
-        "projectPath": "C:\\Wipro-Assignments\\Capstone\\BackEnd\\Capstone_BackendServices\\TrainingManagemet\\CourseService\\CourseService.csproj",
+        "projectPath": "C:\\Users\\Administrator\\Desktop\\Backend\\Capstone_BackendServices\\TrainingManagemet\\CourseService\\CourseService.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Wipro-Assignments\\Capstone\\BackEnd\\Capstone_BackendServices\\TrainingManagemet\\CourseService\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\Desktop\\Backend\\Capstone_BackendServices\\TrainingManagemet\\CourseService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -98,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
