@@ -125,6 +125,9 @@ CREATE TABLE Enrollments (
 );
 GO
 
+ALTER TABLE Enrollments
+ALTER COLUMN Status BIT NULL;
+
 -- Verify the table creation
 SELECT * FROM Enrollments;
 GO
